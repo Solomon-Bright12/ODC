@@ -50,5 +50,17 @@ main{
 }
 
 .home{
-    margin-top: 40px;
+    margin-top: 40px;@media only screen and (orientation: portrait) {
+.content {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .content {
+    flex-direction: row;
+  }
+}
+
+    
 }
