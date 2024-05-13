@@ -111,7 +111,8 @@ span{
     
 }
 @media only screen and (max-width: 768px) {
-  body {
+  container{
     font-size: 16px;
+      max-width: 98%;
   }
 }
